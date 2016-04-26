@@ -1,0 +1,14 @@
+package: github.com/lblackstone/auth-plugin-stub
+import:
+- package: github.com/Sirupsen/logrus
+  subpackages:
+  - hooks/syslog
+- package: github.com/codegangsta/cli
+- package: github.com/docker/docker
+  subpackages:
+  - pkg/authorization
+  - pkg/plugins
+  - runconfig
+- package: github.com/gorilla/mux
+- package: github.com/howeyc/fsnotify
+- package: github.com/stretchr/testify/assert
